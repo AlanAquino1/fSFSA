@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Explora&family=Montserrat&family=Roboto+Mono:wght@300&family=Roboto+Slab:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script  src="script.js" defer></script>
+    <title>Curriculum</title>
+</head>
+  <body> 
+    <div id="progress">
+      <span id="progress-value">&#x1F815;</span>
+    </div>
+    <nav class="navbar">
+      <div class="brand-title">Curriculum</div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+     
+        <div class="navbar-links">
+        <ul>
+          <li><a href="#about">Sobre mí</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#proyects">Proyectos</a></li>
+          <li><a href="#datos">Datos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+   
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1>Jerry Duncan</h1>
+        <p>Desarrollador Web</p>
+      </div>
+    </div>
+    <div class="about-section" id="about">
+      <div class="inner-container">
+        <h1>Sobre mi</h1>
+           <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit ducimus, enim inventore earum, eligendi nostrum pariatur necessitatibus eius dicta a voluptates sit deleniti autem error eos totam nisi neque voluptates sit deleniti autem error eos totam nisi neque.
+           </p>
+              <div class="skills">
+                <span>Diseño Web</span>
+                <span>Photoshop & ilustración</span>
+                <span>Coding</span>
+              </div>
+      </div>
+    </div>
+    
+    <div class="container" id="skills">
+      <h2 class="my-skills">Mis Habilidades</h2>
+      <div class="bar-1">
+          <div class="title">HTML5</div>
+          <div class="bar" data-width="65%">
+          <div class="bar-innerh"></div>
+          <div class="bar-percent">65%</div>
+      </div>
+    </div>
+       <div class="bar-1">
+           <div class="title">CSS</div>
+           <div class="bar" data-width="85%">
+           <div class="bar-innerc"></div>
+           <div class="bar-percent">85%</div>
+        </div>
+      </div>
+
+      <div class="bar-1">
+          <div class="title">Javascript</div>
+          <div class="bar" data-width="95%">
+          <div class="bar-innerj"></div>
+          <div class="bar-percent">95%</div>
+        </div>
+      </div>
+      <div class="bar-1">
+            <div class="title">Digital Art</div>
+            <div class="bar" data-width="90%">
+            <div class="bar-innera"></div>
+            <div class="bar-percent">90%</div>
+        </div>
+      </div>
+      <div class="blog-posts" id="proyects">
+        <div class="post">
+          <img src="1.jpg" alt="" class="post-img">
+            <div class="post-content">
+              <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, soluta?</h3>
+              <span class="date">Agosto 21, 2017</span>
+        </div>
+      </div>
+        <div class="post">
+          <img src="2.jpg" alt="" class="post-img">
+            <div class="post-content">
+              <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, soluta?</h3>
+              <span class="date">Julio 30, 2018</span>
+        </div>
+      </div>  
+        <div class="post">
+          <img src="3.jpg" alt="" class="post-img">
+            <div class="post-content">
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, soluta?</h3>
+                <span class="date">diciembre 13, 2020</span>
+        </div>
+      </div>
+    </div>
+
+      <div class="contact-info" id="datos">
+        <div class="card">
+            <i class="icon fas fa-envelope"></i>
+            <div class="card-content">
+                <h3>Email</h3>
+                <span>jerry.duncan@example.com</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <i class="icon fas fa-phone"></i>
+            <div class="card-content">
+                <h3>Teléfono</h3>
+                <span>(440) 323-2613</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <i class="icon fas fa-map-marker-alt"></i>
+            <div class="card-content">
+                <h3>Ubicacion</h3>
+                <span>4185 E Pecan St</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-section" id="contacto">
+      <h2>Contactate</h2>
+      <div class="border"></div>
+      <form class="contact-form" action="index.html" method="post">
+        <input type="text" class="contact-form-text" placeholder="Tu nombre">
+        <input type="email" class="contact-form-text" placeholder="Tu email">
+        <input type="text" class="contact-form-text" placeholder="Tu telefono">
+        <textarea class="contact-form-text" placeholder="Tu mensaje"></textarea>
+        <input type="submit" class="contact-form-btn" value="Send">
+      </form>
+    </div>   
+  </body>
+</html>
+
